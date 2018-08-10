@@ -68,9 +68,9 @@ end
 
 function inGame()
   inGameOption1 = gg.choice({
-    "Wallhack & Colors",
-    "All Functions",
-    "ðŸ”™ Back",}, nil, "[MENU] Game")
+    "🇰🇼	 Wallhack & Colors",
+    "🇰🇼	 All Functions",
+    "🇰🇼	 Back",}, nil, "[MENU] Game")
   if inGameOption1 == 1 then inGameWallColors() end
   if inGameOption1 == 2 then inGameAll() end
   if inGameOption1 == 3 then HOME() end
