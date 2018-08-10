@@ -13,6 +13,7 @@ gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.clearResults(850)
 
 
+
 gg.alert("pubgmhacks.online")
 gg.alert("For TRDTRD")
 
@@ -36,58 +37,53 @@ function HOME()
     "🗼High View ON(INGAME)🗼",
     "🛑High View OFF(INGAME)🛑",
     "🐯Exit🐯",
-  }, nil, "PUBGMHACKS.ONLINE VIP")
+    },nil,"PUBGMHACKS.ONLINE VIP")
 
-  if menuOption == nil then
-else
-
-  if menuOption[1] == 1 then
+  if menuOption == 1 then
     EE36()
   end
-  if menuOption[2] == 2 then
+  if menuOption == 2 then
     EE39()
 	end
-  if menuOption[3] == 3 then
+  if menuOption == 3 then
     EE49()
 	end
-   if menuOption[4] == 4 then
+   if menuOption  == 4 then
     mediumAimbot()
 	end
-	  if menuOption[5] == 5 then
+	  if menuOption  == 5 then
     wh835()
   end
-    if menuOption[6] == 6 then
+    if menuOption  == 6 then
     WW6()
   end
-    if menuOption[7] == 7 then
+    if menuOption  == 7 then
      REDV2()
   end
-    if menuOption[8] == 8 then
+    if menuOption  == 8 then
     wallShoot()
   end
-    if menuOption[9] == 9 then
+    if menuOption  == 9 then
     alwaysAntenna()
   end
-    if menuOption[10] == 10 then
+    if menuOption == 10 then
     EE5()
   end
-    if menuOption[11] == 11 then
+    if menuOption  == 11 then
     VILI()
   end
-    if menuOption[12] == 12 then
+    if menuOption  == 12 then
     VILIOFF()
   end
-    if menuOption[13] == 13 then
+    if menuOption == 13 then
     microSpeedHack()
   end
 
-  if menuOption[14] == 14 then
+  if menuOption == 14 then
     exitAndPrint()
   end
   HOMEDM = -1
 end
-
-
 
 function microSpeedHack()
   gg.clearResults()
