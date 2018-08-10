@@ -11,7 +11,6 @@ gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
 gg.clearResults(850)
-end
 
 
 gg.alert("pubgmhacks.online")
@@ -34,7 +33,7 @@ function HOME()
     "⛺Wallshot(INGAME)⛺",
     "📡Always Antenna(INGAME)📡",
     "🤝Hand and Foot Antenna(INGAME)🤝",
-    "🗼High View ON(INGAME)🗼"
+    "🗼High View ON(INGAME)🗼",
     "🛑High View OFF(INGAME)🛑",
     "🐯Exit🐯",
   }, nil, "PUBGMHACKS.ONLINE VIP")
