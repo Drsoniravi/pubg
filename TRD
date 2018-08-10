@@ -24,7 +24,7 @@ gg.alert("For TRDTRD")
 
 HOMEDM = 1
 function HOME()
-  menuOption = gg.multichoice({"🎃	NO Recoil (LOBBY) 🎃	",
+  menuOption = gg.choice({"🎃	NO Recoil (LOBBY) 🎃	",
     "💥Magic Bullet (LOBBY)💥",
     "✅	White(LOBBY)✅	",
     "🤖	Medium Aimbot(LOBBY)🤖	",
