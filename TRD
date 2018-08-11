@@ -102,12 +102,14 @@ end
 
 
 function VILI()
-  gg.clearResults() gg.setRanges(gg.REGION_ANONYMOUS)   
-  gg.searchNumber("1 152 319 488D;1 036 831 949D;1 148 846 080D;1 118 830 592D;60F;1 112 014 848D::25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("60", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) gg.getResults(100)
-  gg.editAll("-330", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.alert('Visual Lift Activated!')
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1,092,081,726;1,003,658,240;923,795,456", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1,092,081,726", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1,136,081,726", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("High View Activated!")
 end
 
 function VILIOFF()
