@@ -35,7 +35,7 @@ function HOME()
     "📡Always Antenna(INGAME)📡",
     "🤝Hand and Foot Antenna(INGAME)🤝",
     "🗼High View ON(INGAME)🗼",
-    "🛑Hand and foot antenna(INGAME)🛑",
+    "🛑Head seeking aimbot(INGAME)🛑",
     "speedhack",
     "🐯Exit🐯",
     },nil,"PUBGMHACKS.ONLINE VIP")
@@ -113,20 +113,16 @@ function VILI()
 end
 
 function VILIOFF()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("18.38613319397;0.53447723389;3.42665576935", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("6666", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("0.99999988079;0.82059580088;1;0.99999988079", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("9999", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.toast("Hand and Foot Antenna Activated!")
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("90,77570343018F;0F;8F;15F;16F;18F;28F:512", gg.TYPE_DWORD, false)
+gg.setVisible(false)
+gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("successful")
 end
 
 
