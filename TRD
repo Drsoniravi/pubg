@@ -24,11 +24,11 @@ gg.alert("For TRDTRD")
 
 HOMEDM = 1
 function HOME()
-  menuOption = gg.choice({"🎃	NO Recoil (LOBBY) 🎃	",
+  menuOption = gg.choice({"🎃	COMBO 1 (LOBBY) 🎃	",
     "💥Magic Bullet (LOBBY)💥",
     "✅	White(LOBBY)✅	",
     "🤖	Medium Aimbot(LOBBY)🤖	",
-    "🏡Wallhack(INGAME)🏡",
+    "🏡COMBO2 INGAME🏡",
     "🌈Gradient Color(INGAME)🌈",
     "🍎Red ver2(INGAME)🍎",
     "⛺Wallshot(INGAME)⛺",
@@ -221,6 +221,43 @@ function EE36() -- No Recoil New WORKING 0.7.0
     gg.editAll("100000", gg.TYPE_DWORD)
     gg.clearResults()
     gg.toast("No Recoil Activated!")
+     gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.5F;1F;1F;1F;200F;20F:512", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+  gg.searchNumber("200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(850)
+  gg.editAll("9999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.5F;1F;1F;1F;9999F;20F:512", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+  gg.searchNumber("3.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(850)
+  gg.editAll("-9999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Medium Aimbot Activated!")
+  gg.clearResults()
+  gg.searchNumber(' 573.70306396484;0.05499718338;1 ', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+  gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+  gg.getResults(5000) 
+  gg.editAll('999', gg.TYPE_FLOAT) gg.toast('Loading Perfect White')
+  gg.clearResults(5000)
+  gg.clearResults()
+  gg.toast("Perfect White Activated!")
+  gg.setRanges(32)
+gg.clearResults()
+gg.searchNumber("15;28;16;26;8;18", 16, false, 536870912, 0, -1)
+gg.searchNumber("15;28;16;26;8;18", 16, false, 536870912, 0, -1)
+gg.getResults(56)
+gg.editAll("75", 16)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("15;28;16;26;8;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("15;28;16;26;8;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(56)
+gg.editAll("75", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Magic Bullet Activated!")
   end
 
 
@@ -291,6 +328,13 @@ gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(30)
 gg.editAll("120", gg.TYPE_FLOAT)
 gg.toast("Wallhack SD 835 Activated!")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("256;8200;16;15", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(180)
+  gg.editAll("7", gg.TYPE_DWORD)
+  gg.toast("Body Red v2 Activated!")
 end
 
 
